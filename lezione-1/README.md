@@ -40,7 +40,7 @@ Come vengono scritti<br>
 Tanti derivati da C
 
 ```c
-// C:
+// C
 int main() {
   printf("Hello, World");
 
@@ -178,7 +178,7 @@ I progetti (anche i programmi) possono essere multi linguaggio;
 - Strumento di versionamento del codice:
   - git (più famoso e de facto standard);
   - mercurial;
-- Compilatore se il linguaggio è interpretato;
+- Compilatore se il linguaggio non è interpretato;
 
 **Strumento di versionamento del codice**:
 
