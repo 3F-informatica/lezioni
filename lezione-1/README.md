@@ -15,7 +15,7 @@ L'arte di creare programmi, medianti un linguaggio di programmazione;
 
 Ci sono vari tipi:
 
-**Come funzionano**:
+**Paradigmi (modi di pensare e strutturare il codice)**:
 
 - OOP;
 - Procedural Programming;
