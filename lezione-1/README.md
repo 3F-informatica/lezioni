@@ -71,6 +71,7 @@ Altri linguaggi che hanno preso dal C sono: lua, js, java, rust;
 Ci sono linguaggi che non derivano da C:
 
 ```py
+# Python
 def foo():
         print("Hello, world")
 
@@ -78,6 +79,7 @@ foo()
 ```
 
 ```go
+// Go
 func main() {
   fmt.Println("Hello, World")
 }
