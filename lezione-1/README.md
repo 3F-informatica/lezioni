@@ -40,6 +40,7 @@ Come vengono scritti<br>
 Tanti derivati da C
 
 ```c
+// C:
 int main() {
   printf("Hello, World");
 
@@ -48,6 +49,7 @@ int main() {
 ```
 
 ```cpp
+// C++
 int main() {
   std::cout << "Hello, World" << std::endl;
 
@@ -56,6 +58,7 @@ int main() {
 ```
 
 ```cs
+// C#
 public class Program {
   public void Program() {
     Console.WriteLine("Hello, World");
