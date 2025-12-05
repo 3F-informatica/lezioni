@@ -63,3 +63,49 @@ Servizio di hosting dei repository di git, è uno strumento molto potente
 
 [https://github.com](https://github.com)
 
+## Interfacce utente
+
+Strumento che ti permette di interfacciarti con il programma<br>
+Ci sono 3 tipi:
+
+- GUI (Graphical User Interface)
+- TUI (Text user interface)
+- CLI (Command Line Interface)
+- Web UI
+
+### GUI
+
+È quella più diffusa e che tutti conoscono
+
+### TUI
+
+Vengono usate nel terminale (le più famose sono NVIM, Lazygit, Ranger)<br>
+Ci sono 2 tipi di TUI:
+
+- Interattiva
+- Statica
+
+**Interattiva**:
+
+Dove l'utente può interagire
+
+**Statica**:
+
+Dove l'utente non può interagire
+
+### CLI
+
+Ti interfacci con il programma tramite flags, sub-commands
+
+**Flags**:
+
+Sono dei parametri booleani che vengono passati al programma
+
+**Sub-commands**:
+
+Sono simili alle flags, sono dei sotto programmi
+
+## Web UI
+
+È un interfaccia web
+
