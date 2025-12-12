@@ -1,15 +1,23 @@
-<div align=center>
+---
+title: "**Lezione 1**"
+---
 
-# Lezione 1
+Argomenti trattati:
+===
 
-</div>
+<!-- alignment: center -->
+
+<!-- jump_to_middle -->
 
 - Introduzione alla programmazione
 - Sintassi
 - Cosa è una IDE (e quali ci sono)
 - Cosa è un progetto, e quali strumenti vengono usati
 
-## Introduzione alla programmazione
+<!-- end_slide -->
+
+Introduzione alla programmazione
+===
 
 L'arte di creare programmi, medianti un linguaggio di programmazione
 
@@ -34,30 +42,34 @@ Ci sono vari tipi:
 - Strongly typed
 - Weakly typed
 
-## Sintassi
+<!-- end_slide -->
 
-Come vengono scritti<br>
-Tanti derivati da C
+Sintassi
+===
 
-```c
+Come vengono scritti
+
+Tanti derivano da C:
+
+```c +line_numbers
 // C
 int main() {
-  printf("Hello, World");
+    printf("Hello, World!");
 
-  return 0
+    return 0;
 }
 ```
 
-```cpp
+```cpp +line_numbers
 // C++
 int main() {
-  std::cout << "Hello, World" << std::endl;
+    std::cout << "Hello, World!" << std::endl;
 
-  return 0
+    return 0;
 }
 ```
 
-```cs
+```csharp +line_numbers
 // C#
 class Program
 {
@@ -68,14 +80,16 @@ class Program
 }
 ```
 
-Altri linguaggi che hanno preso dal C sono: lua, js, java, rust
+<!-- end_slide -->
+
+Altri linguaggi che hanno preso dal C sono: `lua`, `js`, `java`, `rust`
 
 Ci sono linguaggi che non derivano da C:
 
-```py
+```python
 # Python
 def foo():
-        print("Hello, world")
+        print("Hello, world!")
 
 foo()
 ```
@@ -83,11 +97,16 @@ foo()
 ```go
 // Go
 func main() {
-  fmt.Println("Hello, World")
+    fmt.Println("Hello, World!")
 }
 ```
 
-## Cosa è una IDE
+Go prende alcune cose da C, ma non tutto
+
+<!-- end_slide -->
+
+Cosa è una IDE
+===
 
 Un IDE è un Integrated Development Environment
 
@@ -106,9 +125,11 @@ Un IDE (Ambiente di sviluppo integrato) ha molte caratteristiche:
 - Refactor
 - Formatter
 
+<!-- end_slide -->
+
 **Text editor**:
 
-è l'editor di testo
+È l'editor di testo
 
 **Syntax highlighting**:
 
@@ -128,7 +149,9 @@ Ti permettono di estendere le funzionalità della IDE
 
 **Terminale**:
 
-Ha un terminale integrato
+Terminale integrato
+
+<!-- end_slide -->
 
 **Linea dei numeri**:
 
@@ -140,21 +163,24 @@ Ti permette di vedere gli errori nel text editor
 
 **Compilatore**:
 
-Ha un compilatore integrato
+Compilatore integrato
 
 **Intellisense**:
 
-L'insieme di: Syntax highlighting, auto completamento, refactor  e capisce il contesto del codice
+L'insieme di: syntax highlighting, auto completamento, refactor e capisce il contesto del codice
 
 **Refactor**:
 
-è lo strumento che ti permette di semplificare il refactoring (apportare modifiche al codice senza cambiare il comportamento)
+È lo strumento che ti permette di semplificare il refactoring (apportare modifiche al codice senza cambiare il comportamento)
 
 **Formatter**:
 
-è lo strumento che ti permette di formattare il codice
+È lo strumento che ti permette di formattare il codice
 
-### Quali IDE ci sono?
+---
+
+## Quali IDE ci sono?
+
 
 - Visual Studio
 - VSCode (non è proprio una IDE di definizione)
@@ -164,12 +190,18 @@ L'insieme di: Syntax highlighting, auto completamento, refactor  e capisce il co
 - XCode
 - NVIM o VIM con i plugins
 
-## Cosa è un progetto
+<!-- end_slide -->
 
-Un progetto è una cartella (o anche soluzione) che contiene uno o più programmi <br>
+Cosa è un progetto
+===
+
+Un progetto è una cartella (o anche soluzione) che contiene uno o più programmi
+
 I progetti (anche i programmi) possono essere multi linguaggio
 
-### Quali strumenti vengono utilizzati per i progetti
+---
+
+## Quali strumenti vengono utilizzati per i progetti
 
 - Formatter
 - Linter
@@ -182,10 +214,16 @@ I progetti (anche i programmi) possono essere multi linguaggio
   - mercurial
 - Compilatore se il linguaggio non è interpretato
 
+<!-- new_line -->
+
 **Strumento di versionamento del codice**:
 
-è uno strumento che ti permette di versionare il codice<br>
+È uno strumento che ti permette di versionare il codice
+
 Di creare snapshot del codice tramite commit
 
-Il codice si trova dentro dei repository (o raccolta/archivio)<br>
+<!-- new_line -->
+
+Il codice si trova dentro dei repository (o raccolta/archivio)
+
 Questi repo vengono caricati (hostati) su piattaforme come github

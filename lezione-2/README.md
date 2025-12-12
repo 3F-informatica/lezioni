@@ -1,16 +1,26 @@
-<div align=center>
+---
+title: "**Lezione 2**"
+---
 
-# Lezione 2
+Argomenti trattati:
+===
 
-</div>
+<!-- alignment: center -->
+
+<!-- jump_to_middle -->
 
 - Version control
 - Interfacce utente (GUI, TUI, CLI, Web UI)
 
-## Version control
+<!-- end_slide -->
 
-Serve per versionare il codice<br>
-Significa: puoi cambiare il codice senza che lo stato precedente del codice non venga eliminato<br>
+Version control
+===
+
+Serve per versionare il codice
+
+Significa: puoi cambiare il codice senza che lo stato precedente del codice non venga eliminato
+
 Serve anche per collaborare con altre persone
 
 ### I sistemi più famosi
@@ -25,6 +35,8 @@ Serve anche per collaborare con altre persone
 - Branch
 - Merge
 - Tag
+
+<!-- end_slide -->
 
 **Repository**:
 
@@ -57,15 +69,31 @@ Esempio con git:
 git merge <nome branch> # Questo fa il merge del branch corrente con quello scelto
 ```
 
-### Github
+**Tag**:
+
+Commit speciale, in genere usato per il rilascio delle versioni del codice
+
+Esempio con git:
+```sh
+git tag -a <versione> -m "<messaggio>"
+```
+
+<!-- end_slide -->
+
+Github
+===
 
 Servizio di hosting dei repository di git, è uno strumento molto potente
 
-[https://github.com](https://github.com)
+[](https://github.com)
 
-## Interfacce utente
+<!-- end_slide -->
 
-Strumento che ti permette di interfacciarti con il programma<br>
+Interfacce utente
+===
+
+Strumento che ti permette di interfacciarti con il programma
+
 Ci sono 3 tipi:
 
 - GUI (Graphical User Interface)
@@ -73,13 +101,17 @@ Ci sono 3 tipi:
 - CLI (Command Line Interface)
 - Web UI
 
+<!-- end_slide -->
+
 ### GUI
 
 È quella più diffusa e che tutti conoscono
 
+---
+
 ### TUI
 
-Vengono usate nel terminale (le più famose sono NVIM, Lazygit, Ranger)<br>
+Vengono usate nel terminale (le più famose sono NVIM, Lazygit, Ranger)
 Ci sono 2 tipi di TUI:
 
 - Interattiva
@@ -93,6 +125,8 @@ Dove l'utente può interagire
 
 Dove l'utente non può interagire
 
+---
+
 ### CLI
 
 Ti interfacci con il programma tramite flags, sub-commands
@@ -105,7 +139,9 @@ Sono dei parametri booleani che vengono passati al programma
 
 Sono simili alle flags, sono dei sotto programmi
 
-## Web UI
+---
+
+### Web UI
 
 È un interfaccia web
 
