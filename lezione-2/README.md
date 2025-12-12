@@ -19,7 +19,7 @@ Version control
 
 Serve per versionare il codice
 
-Significa: puoi cambiare il codice senza che lo stato precedente del codice non venga eliminato
+Significa: puoi cambiare il codice senza che lo stato precedente del codice venga eliminato
 
 Serve anche per collaborare con altre persone
 
@@ -40,7 +40,7 @@ Serve anche per collaborare con altre persone
 
 **Repository**:
 
-Raccolta di codice, che può contenere vari branch commit e tags
+Raccolta di codice, che può contenere vari branch, commit e tags
 
 **Commit**:
 
@@ -71,7 +71,7 @@ git merge <nome branch> # Questo fa il merge del branch corrente con quello scel
 
 **Tag**:
 
-Commit speciale, in genere usato per il rilascio delle versioni del codice
+Commit speciale, in genere usato per il rilascio delle versioni del programma che si sta sviluppando
 
 Esempio con git:
 ```sh

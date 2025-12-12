@@ -16,3 +16,13 @@ Questo è il repo dove ci sono tutte le lezioni, questo sarà il formato
 │   └── README.md
 └── ...
 ```
+
+Presentazioni:
+
+- Lezione 1:
+
+[![asciicast](https://asciinema.org/a/761665.svg)](https://asciinema.org/a/761665)
+
+- Lezione 2:
+
+[![asciicast](https://asciinema.org/a/761670.svg)](https://asciinema.org/a/761670)

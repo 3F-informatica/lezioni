@@ -19,7 +19,7 @@ Argomenti trattati:
 Introduzione alla programmazione
 ===
 
-L'arte di creare programmi, medianti un linguaggio di programmazione
+L'arte di creare programmi, mediante un linguaggio di programmazione
 
 Ci sono vari tipi:
 
@@ -86,7 +86,7 @@ Altri linguaggi che hanno preso dal C sono: `lua`, `js`, `java`, `rust`
 
 Ci sono linguaggi che non derivano da C:
 
-```python
+```python +line_numbers
 # Python
 def foo():
         print("Hello, world!")
@@ -94,7 +94,7 @@ def foo():
 foo()
 ```
 
-```go
+```go +line_numbers
 // Go
 func main() {
     fmt.Println("Hello, World!")
