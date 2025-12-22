@@ -26,3 +26,7 @@ Presentazioni:
 - Lezione 2:
 
 [![asciicast](https://asciinema.org/a/761670.svg)](https://asciinema.org/a/761670)
+
+- Lezione 3:
+
+[![asciicast](https://asciinema.org/a/1n2EmX3kXukZxhBlUpGkMKaYC.svg)](https://asciinema.org/a/1n2EmX3kXukZxhBlUpGkMKaYC)
