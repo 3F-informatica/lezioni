@@ -30,3 +30,7 @@ Presentazioni:
 - Lezione 3:
 
 [![asciicast](https://asciinema.org/a/1n2EmX3kXukZxhBlUpGkMKaYC.svg)](https://asciinema.org/a/1n2EmX3kXukZxhBlUpGkMKaYC)
+
+-Lezione 4:
+
+[![asciicast](https://asciinema.org/a/768957.svg)](https://asciinema.org/a/768957)
